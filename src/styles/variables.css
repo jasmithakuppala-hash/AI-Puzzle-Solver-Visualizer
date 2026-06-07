@@ -1,0 +1,25 @@
+:root {
+
+--bg:#09090B;
+
+--surface:#111827;
+
+--surface-hover:#1F2937;
+
+--primary:#3B82F6;
+
+--primary-hover:#2563EB;
+
+--text:#FAFAFA;
+
+--secondary:#A1A1AA;
+
+--border:rgba(255,255,255,.08);
+
+--radius:22px;
+
+--transition:.35s ease;
+
+--max-width:1280px;
+
+}
