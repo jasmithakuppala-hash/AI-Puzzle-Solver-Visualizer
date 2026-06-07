@@ -1,0 +1,61 @@
+.footer{
+
+padding:70px 8%;
+
+background:#070B14;
+
+text-align:center;
+
+font-family:Inter,sans-serif;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.footer h2{
+
+color:white;
+
+margin-bottom:15px;
+
+font-size:32px;
+
+}
+
+.footer p{
+
+color:#94A3B8;
+
+max-width:600px;
+
+margin:auto;
+
+line-height:1.8;
+
+}
+
+.footer-links{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+margin:35px 0;
+
+color:#60A5FA;
+
+font-weight:600;
+
+}
+
+.copyright{
+
+font-size:14px;
+
+color:#64748B;
+
+}
