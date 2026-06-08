@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./FeatureCards.css";
 
 const features = [
@@ -29,7 +30,7 @@ const features = [
 
 function FeatureCards() {
   return (
-    <section className="features">
+    <section id="features" className="features">
 
       <div className="section-title">
 
@@ -46,29 +47,31 @@ function FeatureCards() {
 
       <div className="cards-grid">
 
-        {features.map((feature, index) => (
+        {features.map((feature, index) => {
+          const pathMap = {
+            "Multi-Agent Race": "/multi-agent",
+            "Teacher Mode": "/teacher",
+            "Commentator Mode": "/commentator",
+            "Backend Explorer": "/backend",
+          };
+          const to = pathMap[feature.title] || "/";
 
-          <div className="feature-card" key={index}>
+          return (
+            <div className="feature-card" key={index}>
 
-            <div className="feature-icon">
+              <div className="feature-icon">{feature.icon}</div>
 
-              {feature.icon}
+              <h3>{feature.title}</h3>
+
+              <p>{feature.description}</p>
+
+              <NavLink to={to} className="explore-link">
+                Explore →
+              </NavLink>
 
             </div>
-
-            <h3>{feature.title}</h3>
-
-            <p>{feature.description}</p>
-
-            <button>
-
-              Explore →
-
-            </button>
-
-          </div>
-
-        ))}
+          );
+        })}
 
       </div>
 

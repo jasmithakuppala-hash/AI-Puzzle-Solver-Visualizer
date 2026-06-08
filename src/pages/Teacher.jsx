@@ -1,9 +1,9 @@
-function Commentator() {
+function Teacher() {
   return (
     <h1 style={{ color: "white", padding: "50px" }}>
-      Commentator Mode Page
+      Teacher Mode Page
     </h1>
   );
 }
 
-export default Commentator;
+export default Teacher;

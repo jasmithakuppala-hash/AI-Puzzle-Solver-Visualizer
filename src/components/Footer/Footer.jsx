@@ -2,7 +2,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
 
       <h2>AI Puzzle Solver Visualizer</h2>
 

@@ -21,7 +21,7 @@ const stats = [
 
 function Statistics() {
   return (
-    <section className="statistics">
+    <section id="statistics" className="statistics">
 
       <div className="statistics-header">
 
