@@ -1,0 +1,121 @@
+.about{
+
+padding:80px 8%;
+
+background:#09090B;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:50px;
+
+font-family:Inter,sans-serif;
+
+}
+
+.about-left span{
+
+color:#3B82F6;
+
+font-size:13px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+}
+
+.about-left h2{
+
+color:white;
+
+font-size:42px;
+
+line-height:1.2;
+
+margin:20px 0;
+
+}
+
+.about-left p{
+
+color:#94A3B8;
+
+font-size:18px;
+
+line-height:1.8;
+
+}
+
+.about-right{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:20px;
+
+}
+
+.about-card{
+
+background:#111827;
+
+padding:28px;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.3s;
+
+}
+
+.about-card:hover{
+
+transform:translateY(-6px);
+
+border-color:#2563EB;
+
+}
+
+.about-card h3{
+
+color:white;
+
+margin-bottom:12px;
+
+font-size:22px;
+
+}
+
+.about-card p{
+
+color:#BFC7D5;
+
+line-height:1.6;
+
+}
+
+@media(max-width:900px){
+
+.about{
+
+grid-template-columns:1fr;
+
+}
+
+.about-right{
+
+grid-template-columns:1fr;
+
+}
+
+.about-left h2{
+
+font-size:34px;
+
+}
+
+}
